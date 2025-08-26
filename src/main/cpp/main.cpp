@@ -11,9 +11,12 @@
  * @copyright Copyright (c) 2025 James R. Daehn
  */
 
-#include "csc232.h"
+#include "bag.h"
+#include <cstdlib>
 
 auto main( ) -> int
 {
+    Bag< int > *intBagPtr{ nullptr };
+
     return EXIT_SUCCESS;
 }
